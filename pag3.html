@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(flower\ collage.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .txt {
+            text-align: center;
+            color: rgb(255, 170, 184);
+            font-family: serif;
+            font-size: 60px;
+        }
+
+        .btn{
+            padding: 10px 26px;
+            background-color: #ffffff;
+            border: 2px solid pink;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s;
+            margin: 15px;
+            
+        }
+        .btn::after{
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color:  rgb(255, 170, 184);;
+            border-radius: inherit;
+            translate: 6px 6px;
+            transition: 0.25s;
+            z-index: -1;
+        
+        }
+        .btn:hover::after{
+            translate: 0;
+        }
+        .btn:hover{
+            background-color: 11827;
+            color: #ffffff
+        }
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section>
+        <h1 class="txt">Contenido multimedia</h1>
+    </section>
+
+    <center>
+    <video src="gis video ‐ Hecho con Clipchamp.mp4" controls width="200"></video>
+    </center>
+
+    <br>
+    <br>
+
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/c2YwANun5lE?si=WCiWwCVIteeCO1Oh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+
+
+
+    <div class="contenedor">
+        <a href="index.html">
+            <button class="btn"> Inicio </button>
+        </a>
+    </div>
+</head>
+<body>
+    
+</body>
+</html>

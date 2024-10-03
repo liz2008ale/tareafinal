@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas y respuestas</title>
+    <style>
+        body {
+            background-image: url(flower\ collage.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .txt {
+            text-align: center;
+            color: rgb(255, 170, 184);
+            font-family: serif;
+            font-size: 60px;
+        }
+
+        .btn{
+            padding: 10px 26px;
+            background-color: #ffffff;
+            border: 2px solid pink;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s;
+            margin: 15px;
+            
+        }
+        .btn::after{
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color:  rgb(255, 170, 184);;
+            border-radius: inherit;
+            translate: 6px 6px;
+            transition: 0.25s;
+            z-index: -1;
+        
+        }
+        .btn:hover::after{
+            translate: 0;
+        }
+        .btn:hover{
+            background-color: 11827;
+            color: #ffffff
+        }
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section>
+        <h1 class="txt">Preguntas</h1>
+    </section>
+
+    <center>
+        <p>
+               <b> Preguntas a la persona entrevistada.</b>
+               <br>
+               <br>
+             
+                 1. ¿Cómo te describirias a ti misma en tres palabras?<br>
+                 R= Fuerte, Disiplinada, Inteligente<br>
+                 <br>
+         
+                 2. ¿Qué te motiva a levantarte cada dia?<br>
+                 R= Considera que es una decisión propia de saber que esta en el lugar que quiere con las personas que quiere y por su trabajo.<br>
+                 <br>
+
+                 3. ¿Cuál ha sido tu mayor reto en tu vida profesional o personal?<br>
+                 R= El ser madre, por un momento le gustaria pausar su vida profesioanl, pero a la vez se siente mal de hacer pausas.<br>
+                 en su vida profesional, pues es consiente que es capaz de lograr las cosas.<br>
+                 Una lucha entre ella como mamá y ella en su vida profesional.<br>
+                 <br>
+
+                 4. ¿Qué libro o pelicula ha tenido mayor impacto en ti?<br>
+                 R= Los libros "El cuatro acuerdo" y "el quinto acuerdo"<br>
+                 <br>
+
+                 5. ¿Qué te llevo a elegir tu profesión?<br>
+                 R= El ser hija de mestros y por todo el tiempo que paso en su infancia en escuelas entendio el amor hacia la profesión.<br>
+                 Y considera que la paga no es tanto monetaria si ni ver crecer a los niños.<br>
+                 <br>
+
+                 6. ¿Cuáles son las habilidades mas importantes para desempeñar tu trabajo?<br>
+                 R= La paciencia, la tolerancia, la empatia, el amor y el gusto hacia la docencia.<br>
+                 <br>
+
+                 7. ¿Cómo gestionas el estres en tu trabajo?<br>
+                 R= No dejar de hacer las cosas que le gustan.<br>
+                 <br>
+
+                 8. ¿Cuál es el proyecto del que te sientes mas orgullosa?<br>
+                 R= Haber terminado su doctorado,  pues logro terminarlo estando embarazada.<br>
+                 <br>
+
+                 9. ¿Cómo te mantienes catualizada en tu campo profesional?<br>
+                 R= Como profesora sabe que es importante no dejarse de actualizar, entonces busca cursos, y quiere seguirse preparando.<br>
+                 <br>
+
+                 10. ¿Cuál es el proximo paso en tu carrera o vida personal?<br>
+                 R= Le gustaria estudiar otra licenciatura, y hacer mas grande a su familia.<br>
+                 <br>
+
+                 11. ¿Cómo defines el exito?<br>
+                 R= El estar pleno, con lo que te sucede, tener satisfacción. <b>la felicidad es el exito.</b><br>
+                 <br>
+        </p>
+    </center>
+
+    <div class="contenedor">
+        <a href="index.html">
+            <button class="btn"> Inicio </button>
+        </a>
+    </div>
+    
+</body>
+</html>

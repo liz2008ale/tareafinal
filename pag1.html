@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía</title>
+    <style>
+        body {
+            background-image: url(flower\ collage.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .txt {
+            text-align: center;
+            color: rgb(255, 170, 184);
+            font-family: serif;
+            font-size: 60px;
+        }
+
+        .btn{
+            padding: 10px 26px;
+            background-color: #ffffff;
+            border: 2px solid pink;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s;
+            margin: 15px;
+            
+        }
+        .btn::after{
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color:  rgb(255, 170, 184);;
+            border-radius: inherit;
+            translate: 6px 6px;
+            transition: 0.25s;
+            z-index: -1;
+        
+        }
+        .btn:hover::after{
+            translate: 0;
+        }
+        .btn:hover{
+            background-color: 11827;
+            color: #ffffff
+        }
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section>
+        <h1 class="txt">Biografía</h1>
+    </section>
+
+    <center>
+    <p>
+        <b>Gisel Godín. Maestra</b>
+        <br>
+        <br>
+        Hija de maestros, nacio el 20 de octubre de 1994 en Cd. Guzmán, Jalisco.<br>
+        Estudio la educacion preescolar en CENDIS.<br>
+        Curso la educacion primaria en la escuela Anexa la Normal.<br>
+        Despues curso la Secundaria en la escuela secundaria José Vasconselos Calderón.<br>
+        Concluyo sus estudios en la Centro Regional de Educacion Normal.<br>
+        Estudio su maestria en Universidad Pedagógica Nacional 144"UPN".<br>
+        Y termino su doctorado en la escuela Centro Educativo Valles Virtual "CEVvi".<br>
+    </p>
+    </center>
+
+    <div class="contenedor">
+        <a href="index.html">
+            <button class="btn"> Inicio </button>
+        </a>
+    </div>
+
+</body>
+</html>
